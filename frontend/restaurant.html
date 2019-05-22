@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Zomato Restaurants
+    </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light" id="navigation">
+        <a class="navbar-brand" id="logo">ZOMATO</a>
+        <form class="form-inline" id="account">
+            <a class="nav-item nav-link" id="login_button" href="#">Login</a>
+            <button class="btn btn-danger my-2 my-sm-0" id="create_button" href="#">Create an account</button>
+        </form>
+    </nav>
+    <div class="container" id="register1">
+        <h3><b>Add a Restaurant</b></h3>
+        <h5><b>Basic Info</b></h5>
+        <div class="container" id="register2">
+            <form>
+                <div class="form-group">
+                    <label class="restaurant_text">RESTAURANT NAME</label>
+                    <input type="text" name="restaurant" class="form-control" placeholder="Enter Restaurant name..." required>
+                </div>
+                <div class="form-group">
+                    <label class="restaurant_text">CITY</label>
+                    <input type="text" name="city" class="form-control" placeholder="Search City" required>
+                </div>
+                <label class="restaurant_text">ARE YOU THE OWNER OR MANAGER OF THIS PLACE</label>
+                <br>
+                <div class="form-check form-check-inline">
+                    <input name="manager" class="form-check-input" type="radio" value="NO">
+                    <label class="form-check-label">I'm not the owner/manager</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input name="manager" class="form-check-input" type="radio" value="YES">
+                    <label class="form-check-label">I'm the owner/manager</label>
+                </div>
+                <div class="form-group">
+                    <label class="restaurant_text">PHONE NUMBER</label>
+                    <input name="phone" type="tel" min="10" max="10" class="form-control" placeholder="Enter restaurant phone number..." required>
+                </div>
+                <label class="restaurant_text">OPENING STATUS</label>
+                <br>
+                <div class="form-check form-check-inline">
+                    <input name="opening" class="form-check-input" type="radio" value="YES">
+                    <label class="form-check-label">This place is already opened</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input name="opening" class="form-check-input" type="radio" value="NO">
+                    <label class="form-check-label">This place is opening soon</label>
+                </div>
+                <br><br>
+                <button type="button" class="btn btn-success" id="restaurant_button">Add Restaurant</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

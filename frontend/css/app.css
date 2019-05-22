@@ -1,0 +1,237 @@
+@media screen and (max-width: 600px) {
+    #logo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .post_data {
+        margin: auto;
+        padding: 10px;
+    }
+
+    .post_title {
+        margin: auto;
+        top: 160px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #cb202d;
+    }
+
+    .post_type {
+        margin: auto;
+        top: 190px;
+        color: #89959B;
+        font-size: 15px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .post_cost {
+        margin: auto;
+        top: 210px;
+        color: #89959B;
+        font-size: 15px;
+    }
+
+    .post_time {
+        margin: auto;
+        font-size: 15px;
+    }
+
+    .post_payment {
+        margin: auto;
+        font-size: 15px;
+    }
+
+    .post_rating {
+        margin-top: 10px;
+        background-color: #3f7e00;
+        text-align: center;
+        padding: 0px 5px;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    .post_views {
+        margin: auto;
+        position: absolute;
+        bottom: 30px;
+        font-size: 15px;
+        color: #89959B;
+    }
+
+    .post_reviews {
+        margin: auto;
+        position: absolute;
+        bottom: 10px;
+        font-size: 15px;
+        color: #89959B;
+    }
+}
+
+@media screen and (min-width: 601px) {
+
+    .post {
+        position: relative;
+    }
+
+    .post_data {
+        margin: auto;
+        padding: 10px;
+    }
+
+    .post_title {
+        margin: auto;
+        font-size: 25px;
+        font-weight: bold;
+        color: #cb202d;
+    }
+
+    .post_type {
+        margin: auto;
+        color: #89959B;
+        font-size: 15px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .post_cost {
+        margin: auto;
+        color: #89959B;
+        font-size: 15px;
+    }
+
+    .post_time {
+        margin: auto;
+        font-size: 15px;
+    }
+
+    .post_payment {
+        margin: auto;
+        font-size: 15px;
+    }
+
+    .post_rating {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #3f7e00;
+        padding: 0px 5px;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    .post_views {
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        font-size: 15px;
+        color: #89959B;
+    }
+
+    .post_reviews {
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        font-size: 15px;
+        color: #89959B;
+    }
+
+}
+
+#navigation {
+    background-color: #cb202d;
+}
+
+#login_button:hover {
+    border-radius: 3px;
+    background-color: #D94148;
+}
+
+#create_button:hover {
+    background-color: #D94148;
+}
+
+#background {
+    background-color: #ebebe0;
+}
+
+#logo {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#login_button {
+    color: #ffffff;
+}
+
+#create_button {
+    border-color: #ba1e2b;
+    background-color: #ba1e2b;
+}
+
+.cols {
+    padding: 15px;
+}
+
+.cards {
+    padding: 10px;
+}
+
+.card_footer {
+    background-color: #ffffff;
+}
+
+.order_button {
+    float: right;
+}
+
+img {
+    padding: 10px;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 5px;
+}
+
+#register1 {
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ebebe0;
+}
+
+#register2 {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.restaurant_text{
+    padding: 5px;
+    color:#89959B;
+}
+
+#restaurant_button{
+    width:100%;
+}
+
+#register3 {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+#register_button{
+    background-color:#cb202d;
+    border-color:#cb202d;
+    padding:10px 30px;
+    font-size:20px;
+}
