@@ -1,8 +1,4 @@
 @media screen and (max-width: 600px) {
-    #logo {
-        text-align: center;
-        width: 100%;
-    }
 
     .post_data {
         margin: auto;
@@ -71,7 +67,91 @@
     }
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width:601px) {
+
+    .post_data {
+        margin: auto;
+        padding: 10px;
+    }
+
+    .post_title {
+        margin: auto;
+        top: 160px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #cb202d;
+    }
+
+    .post_type {
+        margin: auto;
+        top: 190px;
+        color: #89959B;
+        font-size: 15px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .post_cost {
+        margin: auto;
+        top: 210px;
+        color: #89959B;
+        font-size: 15px;
+    }
+
+    .post_time {
+        margin: auto;
+        font-size: 15px;
+    }
+
+    .post_payment {
+        margin: auto;
+        font-size: 15px;
+    }
+
+    .post_rating {
+        margin-top: 10px;
+        background-color: #3f7e00;
+        text-align: center;
+        padding: 0px 5px;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    .post_views {
+        margin: auto;
+        position: absolute;
+        bottom: 25px;
+        font-size: 15px;
+        color: #89959B;
+    }
+
+    .post_reviews {
+        margin: auto;
+        position: absolute;
+        bottom: 5px;
+        font-size: 15px;
+        color: #89959B;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .login_button:hover {
+        border-radius: 3px;
+        background-color: #D94148;
+    }
+
+    .create_button {
+        border-radius: 3px;
+        background-color: #cb202d;
+        color: #ffffff;
+    }
+
+    .create_button:hover {
+        background-color: #D94148;
+    }
 
     .post {
         position: relative;
@@ -145,19 +225,11 @@
 
 #navigation {
     background-color: #cb202d;
+    padding: 0px 20px;
 }
 
-#login_button:hover {
-    border-radius: 3px;
-    background-color: #D94148;
-}
-
-#create_button{
-    color: #ffffff;
-}
-
-#create_button:hover {
-    background-color: #D94148;
+.account {
+    width: 100%;
 }
 
 #background {
@@ -217,13 +289,13 @@ img {
     background-color: #ffffff;
 }
 
-.restaurant_text{
+.restaurant_text {
     padding: 5px;
-    color:#89959B;
+    color: #89959B;
 }
 
-#restaurant_button{
-    width:100%;
+#restaurant_button {
+    width: 100%;
 }
 
 #register3 {
@@ -232,16 +304,16 @@ img {
     background-color: #ffffff;
 }
 
-.registration_text{
+.registration_text {
     padding: 5px;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
-#register_button{
-    background-color:#cb202d;
-    border-color:#cb202d;
-    padding:10px 30px;
-    font-size:20px;
+#register_button {
+    background-color: #cb202d;
+    border-color: #cb202d;
+    padding: 10px 30px;
+    font-size: 20px;
     width: 100%;
 }
 
@@ -252,14 +324,14 @@ img {
     background-color: #ffffff;
 }
 
-#login_field{
+#login_field {
     padding: 25px;
 }
 
-#signin_button{
-    background-color:#cb202d;
-    border-color:#cb202d;
-    padding:10px 30px;
-    font-size:20px;
+#signin_button {
+    background-color: #cb202d;
+    border-color: #cb202d;
+    padding: 10px 30px;
+    font-size: 20px;
     width: 100%;
 }

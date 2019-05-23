@@ -13,12 +13,21 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light" id="navigation">
-        <a class="navbar-brand" href="index.html" id="logo">ZOMATO</a>
-        <form class="form-inline" id="account">
-            <a class="nav-item nav-link" id="login_button" href="login.html">Login</a>
-            <a class="nav-item nav-link" id="create_button" href="registration.html">Create an account</a>
-        </form>
+    <nav class="navbar navbar-expand-sm navbar-dark justify-content-end" id="navigation">
+        <a class="navbar-brand mr-auto" href="index.html" id="logo">ZOMATO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav text-right">
+                <li class="nav-item active">
+                    <a class="nav-link login_button" href="login.html">Login</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link login_button" href="registration.html">Create an account</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <div class="container" id="register1">
         <h3><b>Add a Restaurant</b></h3>
@@ -27,7 +36,8 @@
             <form>
                 <div class="form-group">
                     <label class="restaurant_text">RESTAURANT NAME</label>
-                    <input type="text" name="restaurant" class="form-control" placeholder="Enter Restaurant name..." required>
+                    <input type="text" name="restaurant" class="form-control" placeholder="Enter Restaurant name..."
+                        required>
                 </div>
                 <div class="form-group">
                     <label class="restaurant_text">CITY</label>
@@ -45,7 +55,8 @@
                 </div>
                 <div class="form-group">
                     <label class="restaurant_text">PHONE NUMBER</label>
-                    <input name="phone" type="tel" min="10" max="10" class="form-control" placeholder="Enter restaurant phone number..." required>
+                    <input name="phone" type="tel" min="10" max="10" class="form-control"
+                        placeholder="Enter restaurant phone number..." required>
                 </div>
                 <label class="restaurant_text">OPENING STATUS</label>
                 <br>

@@ -11,29 +11,37 @@
     <title>Zomato Login
     </title>
 </head>
+
 <body>
-        <nav class="navbar navbar-light" id="navigation">
-            <a class="navbar-brand" href="index.html" id="logo">ZOMATO</a>
-            <form class="form-inline" id="account">
-                <a class="nav-item nav-link" id="login_button" href="login.html">Login</a>
-                <a class="nav-item nav-link" id="create_button" href="registration.html">Create an account</a>
-            </form>
-        </nav>
-    
-    
-    <div class="d-flex justify-content-center align-items-center container" id="register4">
-            <form data-toggle="validator" role="form">
-                <h2 align="center"><b>LOG IN</b></h2>
-                <hr>
-                <div class="form-group">
-                    <label for="inputName" class="control-label registration_text">Email / Zomato Username</label>
-                    <input type="text" class="form-control" id="login_field" required>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary" id="signin_button">Submit</button>
-                </div>
-            </form>
+    <nav class="navbar navbar-expand-sm navbar-dark justify-content-end" id="navigation">
+        <a class="navbar-brand mr-auto" href="index.html" id="logo">ZOMATO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav text-right">
+                <li class="nav-item active">
+                    <a class="nav-link login_button" href="login.html">Login</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link login_button" href="registration.html    ">Create an account</a>
+                </li>
+            </ul>
         </div>
+    </nav>
+    <div class="d-flex justify-content-center align-items-center container" id="register4">
+        <form data-toggle="validator" role="form">
+            <h2 align="center"><b>LOG IN</b></h2>
+            <hr>
+            <div class="form-group">
+                <label for="inputName" class="control-label registration_text">Email / Zomato Username</label>
+                <input type="text" class="form-control" id="login_field" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" id="signin_button">Submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
