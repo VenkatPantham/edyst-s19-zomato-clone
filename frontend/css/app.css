@@ -223,10 +223,14 @@ img {
 }
 
 #register3 {
-    margin-top: 20px;
-    padding: 20px;
+    margin: 100px auto;
     border-radius: 5px;
     background-color: #ffffff;
+}
+
+.registration_text{
+    padding: 5px;
+    font-size: 20px; 
 }
 
 #register_button{
@@ -234,4 +238,24 @@ img {
     border-color:#cb202d;
     padding:10px 30px;
     font-size:20px;
+    width: 100%;
+}
+
+
+#register4 {
+    margin: 100px auto;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+#login_field{
+    padding: 25px;
+}
+
+#signin_button{
+    background-color:#cb202d;
+    border-color:#cb202d;
+    padding:10px 30px;
+    font-size:20px;
+    width: 100%;
 }
