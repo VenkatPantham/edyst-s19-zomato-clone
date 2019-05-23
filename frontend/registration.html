@@ -16,38 +16,40 @@
     <nav class="navbar navbar-light" id="navigation">
         <a class="navbar-brand" id="logo">ZOMATO</a>
         <form class="form-inline" id="account">
-            <a class="nav-item nav-link" id="login_button" href="#">Login</a>
-            <button class="btn btn-danger my-2 my-sm-0" id="create_button" href="#">Create an account</button>
+            <a class="nav-item nav-link" id="login_button" href="login.html">Login</a>
+            <button class="btn btn-danger my-2 my-sm-0" id="create_button" href="registration.html">Create an account</button>
         </form>
     </nav>
 
     <div class="d-flex justify-content-center align-items-center container" id="register3">
-            <form data-toggle="validator" role="form">
-                <h2 align="center"><b>SIGN UP</b></h2>
-                <hr>
-                <div class="form-group">
-                    <label for="inputName" class="control-label registration_text">Full Name</label>
-                    <input type="text" class="form-control" id="inputName" required>
-                </div>
-                <div class="form-group">
-                    <label for="inputEmail" class="control-label registration_text">Email Adress</label>
-                    <input type="email" class="form-control" id="inputEmail" data-error="Enter the valid email address is invalid" required>
+        <form data-toggle="validator" role="form">
+            <h2 align="center"><b>SIGN UP</b></h2>
+            <hr>
+            <div class="form-group">
+                <label for="inputName" class="control-label registration_text">Full Name</label>
+                <input type="text" class="form-control" id="inputName" required>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail" class="control-label registration_text">Email Adress</label>
+                <input type="email" class="form-control" id="inputEmail"
+                    data-error="Enter the valid email address is invalid" required>
+                <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="terms" data-error="Please accept the terms and regulations" required>
+                        I agree to Zomato's <strong>Terms of Service, Privacy Policy</strong> and <strong>Content
+                            Policies</strong>
+                    </label>
                     <div class="help-block with-errors"></div>
                 </div>
-                <div class="form-group">
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox" id="terms" data-error="Please accept the terms and regulations" required>
-                            I agree to Zomato's <strong>Terms of Service, Privacy Policy</strong> and <strong>Content Policies</strong>
-                        </label>
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary" id="register_button">Submit</button>
-                </div>
-            </form>
-        </div>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" id="register_button">Submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
