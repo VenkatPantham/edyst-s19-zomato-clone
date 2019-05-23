@@ -152,6 +152,10 @@
     background-color: #D94148;
 }
 
+#create_button{
+    color: #ffffff;
+}
+
 #create_button:hover {
     background-color: #D94148;
 }
