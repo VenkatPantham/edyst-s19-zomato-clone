@@ -1,0 +1,27 @@
+{
+    "reviews": [{
+        "review_image": "images/review.jpg",
+        "review_name": "Burger King",
+        "review_city": "Gachibowli Casual Dining",
+        "review_open": "Open Now ",
+        "review_type": "North Indian,Chineese",
+        "review_rates": "4.5",
+        "reviewer": [{
+                "review_photo": "images/male.png",
+                "reviewer_name": "Jon Snow",
+                "reviewer_reviews": "6454 Reviews, 463 Followers",
+                "reviewer_time": "yesterday",
+                "reviewer_rating": "4.0",
+                "reviewer_review": "For me if there is any brunch which is close to perfect is Westin brunch... It's just about large number of menu items but it's taste that I feel is at very top notch. And there desserts are absolute delight. It terms of deserts I can give them 5/5 rating. I feel in terms of services they can improve bit more in terms of delays. But we can complain totally on them since it's always booked to max."
+            },
+            {
+                "review_photo": "images/female.png",
+                "reviewer_name": "Danerys Targerean",
+                "reviewer_reviews": "76423 Reviews, 5435 Followers",
+                "reviewer_time": "1 week ago",
+                "reviewer_rating": "4.3",
+                "reviewer_review": " I brunched at Seasonal Tastes on New Year's day. The spread was excellent, far too many dishes for one man to taste. I loved the roast chicken, pork stew & the steak & eggs. Cold cuts were also good, but choice was limited. Pizza & sushi were kind of a letdown though. The live grill was quite good, though the chef over cooked the marinated tenderloins (partly my fault, since I forgot to tell him to cook it medium rare, but then again a professional chef should by default not cook steak above medium readiness). Desserts were good, but I felt they need to diversify their dessert spread, which was too focussed on multi-tier cakes. As for the drinks, I enjoyed the Whiskey Sour. Overall I felt that while the large spread is commendable, more care needs to be taken to perfect each offering."
+            }     
+        ]
+    }]
+}

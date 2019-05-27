@@ -1,0 +1,76 @@
+<div>
+    <% for (review in reviewsdata["reviews"]) {%>
+    <img class="img-fluid review_image" src="<%=reviewsdata['reviews'][review]['review_image']%>">
+    <div class="review_data">
+        <h2 class="review_name"><b><%=reviewsdata['reviews'][review]['review_name']%></b></h2>
+        <p class="review_city"><%=reviewsdata['reviews'][review]['review_city']%></p>
+        <hr>
+        <p>
+            <spam class="review_open"><%=reviewsdata['reviews'][review]['review_open']%></span> &#9642; <span
+                    class="review_type"><%=reviewsdata['reviews'][review]['review_type']%></span>
+        </p>
+    </div>
+    <div class="review_rating">
+        <p class="review_rates"><%=reviewsdata['reviews'][review]['review_rates']%></p>
+    </div>
+    <br>
+    <div>
+        <% for (reviewer in reviewsdata['reviews'][review]['reviewer']) {%>
+        <div class="reviewer">
+            <div class="review_follows">
+                <img class="img-fluid review_photo" align="left"
+                    src="<%=reviewsdata['reviews'][review]['reviewer'][reviewer]['review_photo']%>">
+                <p class="reviewer_name"><%=reviewsdata['reviews'][review]['reviewer'][reviewer]['reviewer_name']%>
+                </p>
+                <p class="reviewer_reviews">
+                    <%=reviewsdata['reviews'][review]['reviewer'][reviewer]['reviewer_reviews']%></p>
+                <a class="reviewer_follow" href="">Follow</a>
+            </div>
+            <br>
+            <div class="review_time">
+                <p class="reviewer_time"><%=reviewsdata['reviews'][review]['reviewer'][reviewer]['reviewer_time']%>
+                </p>
+            </div>
+            <br>
+            <br>
+            <p class="reviewer_review"><span class="reviewer_rate">RATED&nbsp;</span><span
+                    class="reviewer_rating"><%=reviewsdata['reviews'][review]['reviewer'][reviewer]['reviewer_rating']%></span>&nbsp;
+                <%=reviewsdata['reviews'][review]['reviewer'][reviewer]['reviewer_review']%></p>
+            <div class="reviewer_adds">
+                <button type="button" class="btn btn-default btn-sm review_like">
+                    <span class="glyphicon glyphicon-heart"></span> Like
+                </button>
+                <button type="button" class="btn btn-default btn-sm review_comment">
+                    <span class="glyphicon glyphicon-comment"></span> Comment
+                </button>
+                <button type="button" class="btn btn-default btn-sm review_share">
+                    <span class="glyphicon glyphicon-share"></span> Share
+                </button>
+            </div>
+            <div class="reviewer_commentbox">
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-tag"></span>
+                        </div>
+                        <input class="form-control" name="comment" type="text"
+                            placeholder="Write a comment ... Use @ to tag friends">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <% } %>
+    </div>
+    <% } %>
+    <div class="form-group review_add">
+        <h4 align="left">Write a Review</h4>
+        <div class="input-group">
+            <div class="input-group-addon">
+                <span class="glyphicon glyphicon-pencil"></span>
+            </div>
+            <input class="form-control" name="comment" type="text"
+                placeholder="Help other foodies by sharing your review of Burger King">
+        </div>
+        <button type="button" class="btn btn-success" id="review_button">Add Your Review</button>
+    </div>
+</div>

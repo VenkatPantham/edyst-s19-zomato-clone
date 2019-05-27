@@ -5,6 +5,14 @@
         padding: 10px;
     }
 
+    .post_data a {
+        text-decoration: none;
+    }
+
+    .post_data a:hover {
+        text-decoration: none;
+    }
+
     .post_title {
         margin: auto;
         top: 160px;
@@ -102,13 +110,13 @@
         font-size: 10px;
         color: #ffffff;
         background-color: #898989;
-        padding: 5px;
+        padding: 2px 5px;
         border-radius: 5px;
         text-align: left;
     }
 
     .reviewer_follow:hover {
-        padding: 6px;
+        padding: 3px 6px;
         color: #ffffff;
         text-decoration: none;
     }
@@ -178,6 +186,15 @@
         padding: 10px;
     }
 
+    .post_data a {
+        text-decoration: none;
+    }
+
+
+    .post_data a:hover {
+        text-decoration: none;
+    }
+
     .post_title {
         margin: auto;
         font-size: 25px;
@@ -241,7 +258,7 @@
         margin: 20px;
         text-align: center;
         border-radius: 5px;
-        padding-bottom:50px;
+        padding-bottom: 50px;
     }
 
     .review_name {
@@ -288,16 +305,17 @@
     .reviewer_follow {
         margin: auto;
         position: absolute;
+        top: 60px;
         left: 100px;
         font-size: 10px;
         color: #ffffff;
         background-color: #898989;
-        padding: 3px 5px;
+        padding: 0px 5px;
         border-radius: 5px;
     }
 
     .reviewer_follow:hover {
-        padding: 6px;
+        padding: 1px 6px;
         color: #ffffff;
         text-decoration: none;
     }
@@ -350,23 +368,23 @@
         left: 70px;
     }
 
-    .review_share{
+    .review_share {
         position: absolute;
-        right:0px;
+        right: 0px;
     }
 
     .reviewer_commentbox {
         margin-top: 20px;
     }
 
-    .review_add{
+    .review_add {
         position: relative
     }
 
     #review_button {
         margin-top: 10px;
         position: absolute;
-        left:0px;
+        left: 0px;
     }
 
 }
