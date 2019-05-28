@@ -37,7 +37,7 @@
         <div class="reviewsss"></div>
     </div>
     <script>
-        $.getJSON('https://6f428800-42b3-41ca-8123-f5e1b0dbc5d0.mock.pstmn.io/review', function (review) {
+        $.getJSON('https://6f428800-42b3-41ca-8123-f5e1b0dbc5d0.mock.pstmn.io/reviews', function (review) {
             $('.reviewsss').html(ejs.zomato('templates/review.ejs', {
                 reviewsdata: review
             }));

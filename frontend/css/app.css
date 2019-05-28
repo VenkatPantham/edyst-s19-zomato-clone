@@ -1,5 +1,4 @@
 @media screen and (max-width: 1199px) {
-
     .post_data {
         margin: auto;
         padding: 10px;
@@ -400,6 +399,8 @@
 }
 
 #background {
+    padding: 10px 50px;
+    border-radius: 5px;
     background-color: #ebebe0;
 }
 
@@ -419,12 +420,13 @@
     background-color: #ba1e2b;
 }
 
-.cols {
-    padding: 15px;
-}
+/* .cols {
+    padding: 30px;
+} */
 
 .cards {
     padding: 10px;
+    margin: 10px 0px;
 }
 
 .card_footer {
