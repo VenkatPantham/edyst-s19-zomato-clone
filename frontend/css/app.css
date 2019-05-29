@@ -388,6 +388,10 @@
 
 }
 
+.main {
+    background-color: #ebebe0;
+}
+
 #navigation {
     margin: auto;
     background-color: #cb202d;
@@ -419,10 +423,6 @@
     border-color: #ba1e2b;
     background-color: #ba1e2b;
 }
-
-/* .cols {
-    padding: 30px;
-} */
 
 .cards {
     padding: 10px;
@@ -508,6 +508,14 @@ img {
 .terms {
     font-size: 15px;
     color: #89959B;
+}
+
+.review_bar {
+    font-size: 16px;
+    border-radius: 0px;
+    margin: 0px -5px;
+    background-color: #cb202d;
+    ;
 }
 
 .review_image {

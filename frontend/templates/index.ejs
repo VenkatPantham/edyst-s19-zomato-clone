@@ -1,25 +1,28 @@
-<% for (item in itemsdata["items"]) {%>
-<!-- <div class="col-md-6 cols"> -->
-<div class="card col-lg-6 cards">
-    <div class="post">
-        <img class="post_image" align="left" src="<%=itemsdata['items'][item]['image']%>">
-        <div class="post_data">
-            <a href="review.html"><p class="post_title"><%=itemsdata['items'][item]['name']%></p></a>
-            <p class="post_type"><%=itemsdata['items'][item]['type']%></p>
-            <p class="post_cost">&#8377;<%=itemsdata['items'][item]['cost']%></p>
-            <p class="post_time">Min  &#8377;<%=itemsdata['items'][item]['mincost']%> &#9642; Upto <%=itemsdata['items'][item]['mintime']%></p>
-            <p class="post_payment">Accepts Cash &#9642; Online Payments</p>
+<div class="row hidden-md-up">
+    <% for (item in itemsdata["items"]) {%>
+    <div class="card col-md-6 cards">
+        <div class="post">
+            <img class="post_image" align="left" src="<%=itemsdata['items'][item]['image']%>">
+            <div class="post_data">
+                <a href="review.html">
+                    <p class="post_title"><%=itemsdata['items'][item]['name']%></p>
+                </a>
+                <p class="post_type"><%=itemsdata['items'][item]['type']%></p>
+                <p class="post_cost">&#8377;<%=itemsdata['items'][item]['cost']%></p>
+                <p class="post_time">Min &#8377;<%=itemsdata['items'][item]['mincost']%> &#9642; Upto
+                    <%=itemsdata['items'][item]['mintime']%></p>
+                <p class="post_payment">Accepts Cash &#9642; Online Payments</p>
+            </div>
+            <div>
+                <p class="post_rating"><%=itemsdata['items'][item]['rating']%></p>
+                <p class="post_views"><%=itemsdata['items'][item]['votes']%></p>
+                <p class="post_reviews"><%=itemsdata['items'][item]['reviews']%></p>
+            </div>
         </div>
-        <div>
-            <p class="post_rating"><%=itemsdata['items'][item]['rating']%></p>
-            <p class="post_views"><%=itemsdata['items'][item]['votes']%></p>
-            <p class="post_reviews"><%=itemsdata['items'][item]['reviews']%></p>
+        <div class="card_footer">
+            <button type="button" class="btn btn-outline-success order_button">Order
+                Online</button>
         </div>
     </div>
-    <div class="card_footer">
-        <button type="button" class="btn btn-outline-success order_button">Order
-            Online</button>
-    </div>
+    <% } %>
 </div>
-<!-- </div> -->
-<% } %>
