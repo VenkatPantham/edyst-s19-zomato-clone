@@ -1,66 +1,65 @@
 {
-    "items":[
-        {
-            "title":"Haleem by Cafe",
-            "type":"Hyderabadi",
-            "cost":"200 for one",
-            "time":"0",
-            "upto":"30min",
-            "rating":"4.5",
-            "views":"31634 views",
-            "reviews":"2324 reviews",
-            "image":"images/haleem.jpg"
+    "items": [{
+            "title": "Haleem by Cafe",
+            "type": "Hyderabadi",
+            "cost": "200 for one",
+            "time": "0",
+            "upto": "30min",
+            "rating": "4.5",
+            "views": "31634 views",
+            "reviews": "2324 reviews",
+            "image": "images/haleem.jpg"
         },
         {
-            "title":"Barbeque Nation",
-            "type":"North Indian,Contential,Chinnese",
-            "cost":"250 for one",
-            "time":"0",
-            "upto":"35min",
-            "rating":"4.3",
-            "views":"42435 views",
-            "reviews":"2301 reviews",
-            "image":"images/brooke.jpg"
-        },{
-            "title":"Burger King",
-            "type":"Fast Food,Burger,Bevarages",
-            "cost":"100 for one",
-            "time":"99",
-            "upto":"15min",
-            "rating":"4.7",
-            "views":"86544 views",
-            "reviews":"7343 reviews",
-            "image":"images/burger.jpg"
-        },{
-            "title":"Ghungroo",
-            "type":"North Indian.Chineese,Andhra",
-            "cost":"400 for one",
-            "time":"0",
-            "upto":"45min",
-            "rating":"4.0",
-            "views":"8453 views",
-            "reviews":"1564 reviews",
-            "image":"images/edgar.jpg"
-        },{
-            "title":"Swagath Grand",
-            "type":"North Indian,Chineese,Biryani",
-            "cost":"150 for one",
-            "time":"0",
-            "upto":"35min",
-            "rating":"4.1",
-            "views":"7456 views",
-            "reviews":"963 reviews",
-            "image":"images/joseph.jpg"
-        },{
-            "title":"Broadway",
-            "type":"Drinks,Shakes",
-            "cost":"100 for one",
-            "time":"100",
-            "upto":"25min",
-            "rating":"4.6",
-            "views":"74354 views",
-            "reviews":"5634 reviews",
-            "image":"images/juice.jpg"
+            "title": "Barbeque Nation",
+            "type": "North Indian,Contential,Chinnese",
+            "cost": "250 for one",
+            "time": "0",
+            "upto": "35min",
+            "rating": "4.3",
+            "views": "42435 views",
+            "reviews": "2301 reviews",
+            "image": "images/brooke.jpg"
+        }, {
+            "title": "Burger King",
+            "type": "Fast Food,Burger,Bevarages",
+            "cost": "100 for one",
+            "time": "99",
+            "upto": "15min",
+            "rating": "4.7",
+            "views": "86544 views",
+            "reviews": "7343 reviews",
+            "image": "images/burger.jpg"
+        }, {
+            "title": "Ghungroo",
+            "type": "North Indian.Chineese,Andhra",
+            "cost": "400 for one",
+            "time": "0",
+            "upto": "45min",
+            "rating": "4.0",
+            "views": "8453 views",
+            "reviews": "1564 reviews",
+            "image": "images/edgar.jpg"
+        }, {
+            "title": "Swagath Grand",
+            "type": "North Indian,Chineese,Biryani",
+            "cost": "150 for one",
+            "time": "0",
+            "upto": "35min",
+            "rating": "4.1",
+            "views": "7456 views",
+            "reviews": "963 reviews",
+            "image": "images/joseph.jpg"
+        }, {
+            "title": "Broadway",
+            "type": "Drinks,Shakes",
+            "cost": "100 for one",
+            "time": "100",
+            "upto": "25min",
+            "rating": "4.6",
+            "views": "74354 views",
+            "reviews": "5634 reviews",
+            "image": "images/juice.jpg"
         }
     ]
 }
