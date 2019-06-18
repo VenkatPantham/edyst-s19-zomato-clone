@@ -1,54 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
     <script src="jquery.min.js"></script>
     <script src="ejs.min.js"></script>
     <script src="ejs-render-remote.js"></script>
-    <title>Zomato Reviews
-    </title>
-</head>
+    <title>Zomato Reviews</title>
+  </head>
 
-<body>
-    <nav class="navbar navbar-expand-sm navbar-dark justify-content-end review_bar">
-        <a class="navbar-brand mr-auto" href="index.html" id="logo">ZOMATO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-            <ul class="navbar-nav text-right">
-                <li class="nav-item active">
-                    <a class="nav-link login_button" href="login.html">Login</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link create_button" href="registration.html">Create an account</a>
-                </li>
-            </ul>
-        </div>
+  <body>
+    <nav
+      class="navbar navbar-expand-sm navbar-dark justify-content-end review_bar"
+    >
+      <a class="navbar-brand mr-auto" href="index.html" id="logo">ZOMATO</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse flex-grow-0"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav text-right">
+          <li class="nav-item active">
+            <a class="nav-link login_button" href="login.html">Login</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link create_button" href="registration.html"
+              >Create an account</a
+            >
+          </li>
+        </ul>
+      </div>
     </nav>
     <div class="container review1">
-        <div class="reviewsss"></div>
+      <div class="reviewss"></div>
     </div>
     <script>
-        $.getJSON('review.json', function (review) {
-            $('.reviews').html(ejs.zomato('templates/review.ejs', {
-                reviewsdata: review
-            }));
-        });
+      $.getJSON(
+        "https://6f428800-42b3-41ca-8123-f5e1b0dbc5d0.mock.pstmn.io/restaurants/1",
+        function(review) {
+          $(".reviewss").html(
+            ejs.zomato("templates/review.ejs", {
+              reviewsdata: review
+            })
+          );
+        }
+      );
     </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
