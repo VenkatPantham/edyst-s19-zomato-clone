@@ -1,41 +1,41 @@
 <div>
-    <% for (review in reviewsdata["reviews"]) {%>
-    <img class="img-fluid review_image" src="<%=reviewsdata['reviews'][review]['review_image']%>">
+    <% for (review in reviewsdata['restaurant']) {%>
+    <img class="img-fluid review_image" src="<%=reviewsdata['restaurant'][review]['image']%>">
     <div class="review_data">
-        <h2 class="review_name"><b><%=reviewsdata['reviews'][review]['review_name']%></b></h2>
-        <p class="review_city"><%=reviewsdata['reviews'][review]['review_city']%></p>
+        <h2 class="review_name"><b><%=reviewsdata['restaurant'][review]['name']%></b></h2>
+        <p class="review_city"><%=reviewsdata['restaurant'][review]['city']%></p>
         <hr>
         <p>
-            <spam class="review_open"><%=reviewsdata['reviews'][review]['review_open']%></span> &#9642; <span
-                    class="review_type"><%=reviewsdata['reviews'][review]['review_type']%></span>
+            <spam class="review_open"><%=reviewsdata['restaurant'][review]['openStatus']%></span> &#9642; <span
+                    class="review_type"><%=reviewsdata['restaurant'][review]['type']%></span>
         </p>
     </div>
     <div class="review_rating">
-        <p class="review_rates"><%=reviewsdata['reviews'][review]['review_rates']%></p>
+        <p class="review_rates"><%=reviewsdata['restaurant'][review]['rating']%></p>
     </div>
     <br>
     <div>
-        <% for (reviewer in reviewsdata['reviews'][review]['reviewer']) {%>
+        <% for (reviewer in reviewsdata['restaurant'][review]['reviewer']) {%>
         <div class="reviewer">
             <div class="review_follows">
                 <img class="img-fluid review_photo" align="left"
-                    src="<%=reviewsdata['reviews'][review]['reviewer'][reviewer]['reviewer_photo']%>">
-                <p class="reviewer_name"><%=reviewsdata['reviews'][review]['reviewer'][reviewer]['reviewer_name']%>
+                    src="<%=reviewsdata['restaurant'][review]['reviewer'][reviewer]['reviewerPhoto']%>">
+                <p class="reviewer_name"><%=reviewsdata['restaurant'][review]['reviewer'][reviewer]['reviewerName']%>
                 </p>
                 <p class="reviewer_reviews">
-                    <%=reviewsdata['reviews'][review]['reviewer'][reviewer]['reviewer_reviews']%></p>
+                    <%=reviewsdata['restaurant'][review]['reviewer'][reviewer]['reviewerReviews']%> <%=reviewsdata['restaurant'][review]['reviewer'][reviewer]['reviewerFollowers']%></p>
                 <a class="reviewer_follow" href="">Follow</a>
             </div>
             <br>
             <div class="review_time">
-                <p class="reviewer_time"><%=reviewsdata['reviews'][review]['reviewer'][reviewer]['reviewer_time']%>
+                <p class="reviewer_time"><%=reviewsdata['restaurant'][review]['reviewer'][reviewer]['reviewerTime']%>
                 </p>
             </div>
             <br>
             <br>
             <p class="reviewer_review"><span class="reviewer_rate">RATED&nbsp;</span><span
-                    class="reviewer_rating"><%=reviewsdata['reviews'][review]['reviewer'][reviewer]['reviewer_rating']%></span>&nbsp;
-                <%=reviewsdata['reviews'][review]['reviewer'][reviewer]['reviewer_review']%></p>
+                    class="reviewer_rating"><%=reviewsdata['restaurant'][review]['reviewer'][reviewer]['reviewerRating']%></span>&nbsp;
+                <%=reviewsdata['restaurant'][review]['reviewer'][reviewer]['reviewerReview']%></p>
             <div class="reviewer_adds">
                 <button type="button" class="btn btn-default btn-sm review_like">
                     <span class="glyphicon glyphicon-heart"></span> Like

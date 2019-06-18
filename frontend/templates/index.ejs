@@ -1,22 +1,22 @@
 <div class="row hidden-md-up">
-    <% for (item in itemsdata["items"]) {%>
+    <% for (item in itemsdata["restaurants"]) {%>
     <div class="card col-md-6 cards">
         <div class="post">
-            <img class="post_image" align="left" src="<%=itemsdata['items'][item]['image']%>">
+            <img class="post_image" align="left" src="<%=itemsdata['restaurants'][item]['image']%>">
             <div class="post_data">
                 <a href="review.html">
-                    <p class="post_title"><%=itemsdata['items'][item]['name']%></p>
+                    <p class="post_title"><%=itemsdata['restaurants'][item]['name']%></p>
                 </a>
-                <p class="post_type"><%=itemsdata['items'][item]['type']%></p>
-                <p class="post_cost">&#8377;<%=itemsdata['items'][item]['cost']%></p>
-                <p class="post_time">Min &#8377;<%=itemsdata['items'][item]['mincost']%> &#9642; Upto
-                    <%=itemsdata['items'][item]['mintime']%></p>
+                <p class="post_type"><%=itemsdata['restaurants'][item]['type']%></p>
+                <p class="post_cost">&#8377;<%=itemsdata['restaurants'][item]['cost']%></p>
+                <p class="post_time">Min &#8377;<%=itemsdata['restaurants'][item]['minCost']%> &#9642; Upto
+                    <%=itemsdata['restaurants'][item]['minTime']%></p>
                 <p class="post_payment">Accepts Cash &#9642; Online Payments</p>
             </div>
             <div>
-                <p class="post_rating"><%=itemsdata['items'][item]['rating']%></p>
-                <p class="post_views"><%=itemsdata['items'][item]['votes']%></p>
-                <p class="post_reviews"><%=itemsdata['items'][item]['reviews']%></p>
+                <p class="post_rating"><%=itemsdata['restaurants'][item]['rating']%></p>
+                <p class="post_views"><%=itemsdata['restaurants'][item]['votes']%></p>
+                <p class="post_reviews"><%=itemsdata['restaurants'][item]['reviews']%></p>
             </div>
         </div>
         <div class="card_footer">

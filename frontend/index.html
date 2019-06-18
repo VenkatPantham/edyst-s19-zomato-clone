@@ -38,7 +38,7 @@
         </div>
     </div>
     <script>
-        $.getJSON('https://6f428800-42b3-41ca-8123-f5e1b0dbc5d0.mock.pstmn.io/index', function (item) {
+        $.getJSON('https://6f428800-42b3-41ca-8123-f5e1b0dbc5d0.mock.pstmn.io/restaurants', function (item) {
             $('.items').html(ejs.zomato('templates/index.ejs', {
                 itemsdata: item
             }));
